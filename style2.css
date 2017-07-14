@@ -1,0 +1,65 @@
+.block11 {
+    width: 1400px;
+    height: 380px;
+    background-color: #242424;
+    display: flex;
+    padding: 0 160px 0 150px;
+}
+.block11-1,
+.block11-2,
+.block11-3,
+.block11-4 {
+    height: 220px;
+    border-right: 1px solid #353535;
+    margin: 50px 0;
+    padding: 0 20px;
+}
+.block11-2,
+.block11-4 {
+    border-right: 1px solid transparent;
+}
+.block11-1-1 {
+    color: #bd2631;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 10px;
+}
+.block11-1-2 {
+    width: 210px;
+    margin: 0 25px;
+    color: #fff;
+    font-family: Hind;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 10px;
+}
+.block11-4-1 {
+    color: #bd2631;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 10px;
+}
+.block12 {
+    width: 1400px;
+    height: 80px;
+    background-color: #131313;
+
+}
+.block12-1,
+.block12-2 {
+    color: #fff;
+    font-family: Hind;
+    font-size: 12px;
+    line-height: 30px;
+    margin: 0;
+    display: inline-block;
+}
+.block12-1 {
+    margin: 25px 0 0 170px;
+}
+.block12-2 {
+    float: right;
+    margin: 25px 150px 0 0;
+}
