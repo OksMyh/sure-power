@@ -6,6 +6,10 @@
 body {
     margin: 0;
 }
+header {
+    width: 1400px;
+    position: relative;
+}
 .head-h {
     width: 1400px;
     display: flex;
@@ -161,14 +165,17 @@ nav {
 }
 .head-foot {
     width: 1400px;
-    height: 640px;
-    background: #000 url(./image/a.png) 0 0 no-repeat;
-    background-position: right 0;
+    height: 70px;
+    position: absolute;
+    bottom: -70px;
+    right: 0;
 }
 .block2 {
     width: 1400px;
     height: 570px;
     display: flex;
+    background: #000 url(./image/a.png) 0 0 no-repeat;
+    background-position: right 0;
 }
 .button1 {
     width: 125px;
