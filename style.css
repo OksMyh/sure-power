@@ -17,11 +17,11 @@ header {
     background-color: #ededed;
 }
 #city {
-    width: 127px;
-    height: 35px;
+    width: 130px;
+    height: 37px;
     background-color: #000;
     color: #fff;
-    margin: 10px 25px 15px 140px;
+    margin: 10px 25px 15px 138px;
     padding: 0 10px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -48,7 +48,7 @@ h4 {
 }
 .ph-1,
 .ph-2 {
-    margin: 20px;
+    margin: 17px 9px;
     color: #565655;
 }
 .ph-1 {
@@ -59,7 +59,7 @@ h4 {
 }
 .ph-1::before {
     content: url("./image/phone.png");
-    padding-right: 5px;
+    padding-right: 0;
 }
 .ph-2::before {
     content: url("./image/arrow.png");

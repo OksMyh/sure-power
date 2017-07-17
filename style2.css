@@ -63,3 +63,15 @@
     float: right;
     margin: 25px 150px 0 0;
 }
+@font-face {
+    font-family: Hind;
+    src: url(./fonts/Hind/Hind-Regular.ttf);
+}@font-face {
+    font-family: Hind;
+    src: url(./fonts/Hind/Hind-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Myriad Pro;
+    src: url(./fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf);
+}
