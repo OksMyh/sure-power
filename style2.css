@@ -20,7 +20,7 @@
 }
 .block11-1-1 {
     color: #bd2631;
-    font-family: "Myriad Pro";
+    font-family: "MyriadPro";
     font-size: 18px;
     line-height: 30px;
     margin: 0 10px;
@@ -36,7 +36,7 @@
 }
 .block11-4-1 {
     color: #bd2631;
-    font-family: "Myriad Pro";
+    font-family: "MyriadPro";
     font-size: 12px;
     line-height: 16px;
     margin: 0 10px;
@@ -66,12 +66,13 @@
 @font-face {
     font-family: Hind;
     src: url(./fonts/Hind/Hind-Regular.ttf);
+    font-weight: normal;
 }@font-face {
     font-family: Hind;
     src: url(./fonts/Hind/Hind-Bold.ttf);
     font-weight: bold;
 }
 @font-face {
-    font-family: Myriad Pro;
+    font-family: MyriadPro;
     src: url(./fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf);
 }

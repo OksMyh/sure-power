@@ -21,7 +21,7 @@ header {
     height: 37px;
     background-color: #000;
     color: #fff;
-    margin: 10px 25px 15px 138px;
+    margin: 10px 20px 15px 138px;
     padding: 0 10px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -29,33 +29,33 @@ header {
     outline: none;
 }
 #city,
-.ph-1,
-.ph-2,
 .subtitle,
 h4 {
     font-size: 14px;
     line-height: 30px;
 }
 #city,
-.ph-2,
 .subtitle,
 h4 {
     font-family: "Hind";
 }
-.ph-1,
-.nav-bar {
-    font-family: "Myriad Pro";
-}
-.ph-1,
-.ph-2 {
-    margin: 17px 9px;
-    color: #565655;
-}
 .ph-1 {
     width: 185px;
+    color: #565655;
+    margin: 19px 0 0 14px;
+    font-family: "MyriadPro";
+    font-size: 15px;
 }
 .ph-2 {
     width: 330px;
+    margin: 21px 10px;
+}
+.ph-2-1 {
+    color: #565655;
+    margin: -25px 22px;
+    font-family: "Hind";
+    font-size: 14px;
+    line-height: 30px;
 }
 .ph-1::before {
     content: url("./image/phone.png");
@@ -63,38 +63,38 @@ h4 {
 }
 .ph-2::before {
     content: url("./image/arrow.png");
-    padding-right: 5px;
+    padding-right: 2px;
 }
 .icons {
     display: flex;
     width: 150px;
-    margin: 0 0 0 240px;
+    margin: 0 0 0 252px;
     position: relative;
 }
 .icons1 {
     position: absolute;
-    top: 20px;
+    top: 22px;
     left: 0;
 }
 .icons2 {
     position: absolute;
-    top: 20px;
-    left: 30px;
+    top: 21px;
+    left: 39px;
 }
 .icons3 {
     position: absolute;
     top: 20px;
-    left: 60px;
+    left: 74px;
 }
 .icons4 {
     position: absolute;
-    top: 20px;
-    left: 90px;
+    top: 22px;
+    left: 116px;
 }
 .icons5 {
     position: absolute;
-    top: 20px;
-    left: 120px;
+    top: 21px;
+    left: 155px;
 }
 .block1 {
     height: 140px;
@@ -147,6 +147,7 @@ nav {
     display: inline-block;
     font-size: 16px;
     line-height: 12px;
+    font-family: "MyriadPro";
 }
 .nav-bar:first-child {
     margin-left: 140px;
@@ -195,7 +196,7 @@ nav {
     color: #bd2631;
     font-size: 24pt;
     margin: 0;
-    font-family: "Myriad Pro";
+    font-family: "MyriadPro";
     font-size: 32px;
     line-height: 24px;
 }
@@ -203,14 +204,14 @@ nav {
     color: #fff;
     font-size: 30px;
     margin: 20px 0;
-    font-family: "Myriad Pro";
+    font-family: "MyriadPro";
     font-size: 43px;
     line-height: 24px;
 }
 .block2-1-3 {
     color: #fff;
     margin: 5px;
-    font-family: "Myriad Pro";
+    font-family: "MyriadPro";
     font-size: 24px;
     line-height: 18px;
 }
