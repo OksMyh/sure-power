@@ -27,16 +27,8 @@ header {
     -moz-border-radius: 5px;
     border-radius: 5px;
     outline: none;
-}
-#city,
-.subtitle,
-h4 {
     font-size: 14px;
     line-height: 30px;
-}
-#city,
-.subtitle,
-h4 {
     font-family: "Hind";
 }
 .ph-1 {
@@ -100,37 +92,48 @@ h4 {
     height: 140px;
     width: 1400px;
     display: flex;
-    background: url(./image/qwe.png) 730px 30px no-repeat;
+    background: url(./image/qwe.png) 780px 22px no-repeat;
 }
 .block1-1 {
-    margin: 35px 350px 35px 135px;
+    margin: 31px 350px 35px 132px;
 }
 .block1-2 {
     width: 100px;
     height: 30px;
-    margin: 50px -13px;
-    text-align: center;
+    margin: 42px 61px;
 }
 .block1-3 {
     width: 150px;
     height: 30px;
-    margin: 50px 56px;
-    text-align: center;
+    margin: 42px -15px;
 }
 .block1-4 {
     width: 150px;
     height: 30px;
-    margin: 50px -40px;
-    text-align: center;
+    margin: 42px 23px;
 }
 .subtitle {
     color: #000;
     text-decoration: none;
     font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: "Hind";
 }
-h4 {
-    margin: 0;
+.subtitle1 {
     color: #7a7a7a;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: "MyriadPro";
+}
+.subtitle1-1 {
+    margin: -11px 0;
+}
+.subtitle1-2 {
+    margin: -11px 1px;
+}
+.subtitle1-3 {
+    margin: -11px 0;
 }
 nav {
     height: 70px;
