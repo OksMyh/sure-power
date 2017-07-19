@@ -11,8 +11,7 @@
 .block11-4 {
     height: 270px;
     border-right: 1px solid #353535;
-    margin: 50px 0;
-    padding: 0 20px;
+    margin: 69px 0 0 41px;
 }
 .block11-2,
 .block11-4 {
@@ -23,7 +22,7 @@
     font-family: "MyriadPro";
     font-size: 18px;
     line-height: 30px;
-    margin: 0 10px;
+    margin: -8px 0 0 -18px;
 }
 .block11-1-2 {
     width: 210px;
@@ -43,25 +42,26 @@
 }
 .block12 {
     width: 1400px;
-    height: 80px;
+    height: 85px;
     background-color: #131313;
 
 }
 .block12-1,
 .block12-2 {
     color: #fff;
-    font-family: Hind;
+    font-family: "Hind";
     font-size: 12px;
+    font-weight: normal;
     line-height: 30px;
     margin: 0;
     display: inline-block;
 }
 .block12-1 {
-    margin: 25px 0 0 170px;
+    margin: 32px 0 0 172px;
 }
 .block12-2 {
     float: right;
-    margin: 25px 150px 0 0;
+    margin: 32px 157px 0 0;
 }
 @font-face {
     font-family: Hind;

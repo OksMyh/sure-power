@@ -133,7 +133,7 @@ header {
     margin: -11px 1px;
 }
 .subtitle1-3 {
-    margin: -11px 0;
+    margin: -11px -1px;
 }
 nav {
     height: 70px;
@@ -141,19 +141,25 @@ nav {
     background-color: #000;
     opacity: 0.8;
     padding: 15px;
+    position: absolute;
+    bottom: -72px;
+    right: 0;
 }
 .nav-bar {
     height: 60px;
     color: #fff;
     text-decoration: none;
-    padding: 15px;
+    padding: 15px 27px 0 0;
     display: inline-block;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 12px;
     font-family: "MyriadPro";
 }
 .nav-bar:first-child {
-    margin-left: 140px;
+    margin-left: 127px;
+}
+.nav-bar:nth-child(3) {
+    padding-left: 0px;
 }
 .search {
     width: 300px;
@@ -167,16 +173,9 @@ nav {
 .nav-bar:hover {
     border-bottom: 5px solid #bd2631;
 }
-.head-foot {
-    width: 1400px;
-    height: 70px;
-    position: absolute;
-    bottom: -70px;
-    right: 0;
-}
 .block2 {
     width: 1400px;
-    height: 570px;
+    height: 642px;
     display: flex;
     background: #000 url(./image/a.png) 0 0 no-repeat;
     background-position: right 0;
@@ -184,31 +183,39 @@ nav {
 .button1 {
     width: 125px;
     height: 570px;
-    background: transparent url(./image/button-1.png) center center no-repeat;
-    -webkit-background-size: 12pt;
-    background-size: 12pt;
+    background: transparent url(./image/button-1.png) 57px 331px no-repeat;
+    -webkit-background-size: 23px;
+    background-size: 23px;
+    border: 1px solid transparent;
+    outline: none;
+}
+.button1-1 {
+    width: 125px;
+    height: 570px;
+    background: transparent url(./image/button-1-1.png) 84px 332px no-repeat;
+    -webkit-background-size: 23px;
+    background-size: 23px;
     border: 1px solid transparent;
     outline: none;
 }
 .block2-1 {
-    width: 750px;
+    width: 1150px;
     height: 110px;
     margin: 230px 0 ;
 }
 .block2-1-1 {
     color: #bd2631;
-    font-size: 24pt;
-    margin: 0;
-    font-family: "MyriadPro";
+    font-size: 35px;
+    margin: 66px 11px 0 8px;
+    font-family: "Hind";
     font-size: 32px;
     line-height: 24px;
 }
 .block2-1-2 {
     color: #fff;
-    font-size: 30px;
-    margin: 20px 0;
-    font-family: "MyriadPro";
-    font-size: 43px;
+    margin: 23px 10px 0 10px;
+    font-family: "Hind";
+    font-size: 42px;
     line-height: 24px;
 }
 .block2-1-3 {
