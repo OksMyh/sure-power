@@ -31,6 +31,7 @@ header {
     font-family: "Hind";
     background: #000 url(./image/zx.png) 103px 15px no-repeat;
     -webkit-appearance: none ;
+    -moz-appearance: none;
 }
 .ph-1 {
     width: 185px;
