@@ -19,10 +19,9 @@ header {
 #city {
     width: 130px;
     height: 37px;
-    background-color: #000;
     color: #fff;
     margin: 10px 20px 15px 138px;
-    padding: 0 10px;
+    padding: 0 14px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -30,11 +29,13 @@ header {
     font-size: 14px;
     line-height: 30px;
     font-family: "Hind";
+    background: #000 url(./image/zx.png) 103px 15px no-repeat;
+    -webkit-appearance: none ;
 }
 .ph-1 {
     width: 185px;
     color: #565655;
-    margin: 19px 0 0 14px;
+    margin: 19px 0 0 15px;
     font-family: "MyriadPro";
     font-size: 15px;
 }
@@ -89,7 +90,7 @@ header {
     left: 155px;
 }
 .block1 {
-    height: 140px;
+    height: 141px;
     width: 1400px;
     display: flex;
     background: url(./image/qwe.png) 780px 22px no-repeat;
@@ -142,14 +143,14 @@ nav {
     opacity: 0.8;
     padding: 15px;
     position: absolute;
-    bottom: -72px;
+    bottom: -71px;
     right: 0;
 }
 .nav-bar {
     height: 60px;
     color: #fff;
     text-decoration: none;
-    padding: 15px 27px 0 0;
+    padding: 13px 26px 0 0;
     display: inline-block;
     font-size: 17px;
     line-height: 12px;
@@ -158,17 +159,21 @@ nav {
 .nav-bar:first-child {
     margin-left: 127px;
 }
-.nav-bar:nth-child(3) {
-    padding-left: 0px;
+.nav-bar-1 {
+    margin-left: 2px;
+}
+.nav-bar-2 {
+    margin-left: 4px;
+}
+.nav-bar-3 {
+    margin-left: 2px;
 }
 .search {
     width: 300px;
     height: 40px;
     float: right;
-    background:  url(./image/search.png) 0 0 no-repeat;
-    background-position: right center;
-    border: 1px solid transparent;
-    margin-right: 140px;
+    background:  url(./image/search.png) 280px 9px no-repeat;
+    margin-right: 131px;
 }
 .nav-bar:hover {
     border-bottom: 5px solid #bd2631;
@@ -220,7 +225,7 @@ nav {
 }
 .block2-1-3 {
     color: #fff;
-    margin: 5px;
+    margin: 23px 13px;
     font-family: "MyriadPro";
     font-size: 24px;
     line-height: 18px;

@@ -51,8 +51,8 @@
 .block4-1-1 {
     color: #bd2631;
     position: absolute;
-    top: 129px;
-    left: 119px;
+    top: 130px;
+    left: 100px;
     font-family: "MyriadPro";
     font-size: 32px;
     line-height: 30px;
@@ -62,9 +62,9 @@
     width: 500px;
     color: #fff;
     position: absolute;
-    top: 209px;
+    top: 213px;
     left: 105px;
-    font-family: "Hind";
+    font-family: "MyriadPro";
     font-size: 14px;
     line-height: 30px;
 }

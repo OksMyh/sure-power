@@ -75,4 +75,12 @@
 @font-face {
     font-family: MyriadPro;
     src: url(./fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf);
+    font-weight: normal;
+}
+.pagewrapper {
+    width: 100%;
+    height: 100vh;
+}
+.wrapper {
+    overflow-y: hidden;
 }
