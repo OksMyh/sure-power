@@ -11,14 +11,14 @@
 .block3-1-1 {
     color: #efd4d5;
     margin: 5px 0;
-    font-family: "MyriadPro";
+    font-family: "MyriadPro", sans-serif;
     font-size: 30px;
     line-height: 30px;
 }
 .block3-1-2 {
     color: #efd4d5;
     margin: 0;
-    font-family: "MyriadPro";
+    font-family: "MyriadPro", sans-serif;
     font-size: 24px;
     line-height: 30px;
 }
@@ -33,7 +33,7 @@
     border: 1px solid transparent;
     outline: none;
     margin: 40px 127px 40px 311px;
-    font-family: "MyriadPro";
+    font-family: "MyriadPro", sans-serif;
     font-size: 14px;
     line-height: 30px;
 }
@@ -53,7 +53,7 @@
     position: absolute;
     top: 130px;
     left: 100px;
-    font-family: "MyriadPro";
+    font-family: "MyriadPro", sans-serif;
     font-size: 32px;
     line-height: 30px;
     font-weight: normal;
@@ -64,7 +64,7 @@
     position: absolute;
     top: 213px;
     left: 105px;
-    font-family: "MyriadPro";
+    font-family: "MyriadPro", sans-serif;
     font-size: 14px;
     line-height: 30px;
 }
@@ -120,7 +120,7 @@
 .block7-1-1 {
     color: #bd2631;
     margin: 231px 0 0 226px;
-    font-family: Hind;
+    font-family: Hind, sans-serif;
     font-size: 36px;
     line-height: 30px;
 }
@@ -129,7 +129,7 @@
     height: 80px;
     color: #000;
     margin: 13px 0 0 80px;
-    font-family: Hind;
+    font-family: Hind, sans-serif;
     font-size: 18px;
     text-align: center;
     line-height: 30px;
@@ -141,7 +141,7 @@
 .block7-2-1 {
     color: #bd2631;
     margin: 231px 0 0 202px;
-    font-family: Hind;
+    font-family: Hind, sans-serif;
     font-size: 36px;
     line-height: 30px;
 }
@@ -149,7 +149,7 @@
     width: 394px;
     color: #000;
     margin: 16px 0 0 61px;
-    font-family: Hind;
+    font-family: Hind,sans-serif;
     font-size: 18px;
     text-align: center;
     line-height: 30px;
@@ -162,7 +162,7 @@
 .block7-3-1 {
     color: #bd2631;
     margin: 231px 0 0 160px;
-    font-family: Hind;
+    font-family: Hind,sans-serif;
     font-size: 36px;
     line-height: 30px;
 }
@@ -170,7 +170,7 @@
     width: 378px;
     color: #000;
     margin: 16px 0 0 30px;
-    font-family: Hind;
+    font-family: Hind, sans-serif;
     font-size: 18px;
     text-align: center;
     line-height: 30px;
@@ -189,7 +189,7 @@
     position: absolute;
     top: 50px;
     right: 285px;
-    font-family: "Hind";
+    font-family: "Hind", sans-serif;
     font-size: 36px;
     line-height: 30px;
     font-weight: normal;
@@ -233,7 +233,7 @@
 .block9-2-1 {
     width: 280px;
     text-align: center;
-    font-family: "Hind";
+    font-family: "Hind", sans-serif;
     font-size: 18px;
     line-height: 30px;
     font-weight: bold;

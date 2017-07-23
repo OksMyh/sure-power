@@ -28,7 +28,7 @@ header {
     outline: none;
     font-size: 14px;
     line-height: 30px;
-    font-family: "Hind";
+    font-family: "Hind",sans-serif;
     background: #000 url(./image/zx.png) 103px 15px no-repeat;
     -webkit-appearance: none ;
     -moz-appearance: none;
@@ -36,59 +36,32 @@ header {
 .ph-1 {
     width: 185px;
     color: #565655;
-    margin: 19px 0 0 15px;
-    font-family: "MyriadPro";
+    margin: 17px 0 0 12px;
+    font-family: "MyriadPro", sans-serif;
     font-size: 15px;
 }
 .ph-2 {
     width: 330px;
-    margin: 21px 10px;
+    margin: 25px 13px;
 }
 .ph-2-1 {
     color: #565655;
     margin: -25px 22px;
-    font-family: "Hind";
+    font-family: "Hind", sans-serif;
     font-size: 14px;
     line-height: 30px;
 }
 .ph-1::before {
-    content: url("./image/phone.png");
+    content: "\00a0";
     padding-right: 0;
 }
 .ph-2::before {
-    content: url("./image/arrow.png");
+    content: " ";
     padding-right: 2px;
 }
 .icons {
     display: flex;
     width: 150px;
-    margin: 0 0 0 252px;
-    position: relative;
-}
-.icons1 {
-    position: absolute;
-    top: 22px;
-    left: 0;
-}
-.icons2 {
-    position: absolute;
-    top: 21px;
-    left: 39px;
-}
-.icons3 {
-    position: absolute;
-    top: 20px;
-    left: 74px;
-}
-.icons4 {
-    position: absolute;
-    top: 22px;
-    left: 116px;
-}
-.icons5 {
-    position: absolute;
-    top: 21px;
-    left: 155px;
 }
 .block1 {
     height: 141px;
@@ -120,13 +93,13 @@ header {
     font-weight: bold;
     font-size: 14px;
     line-height: 30px;
-    font-family: "Hind";
+    font-family: "Hind",sans-serif;
 }
 .subtitle1 {
     color: #7a7a7a;
     font-size: 14px;
     line-height: 30px;
-    font-family: "MyriadPro";
+    font-family: "MyriadPro", sans-serif;
 }
 .subtitle1-1 {
     margin: -11px 0;
@@ -155,7 +128,7 @@ nav {
     display: inline-block;
     font-size: 17px;
     line-height: 12px;
-    font-family: "MyriadPro";
+    font-family: "MyriadPro", sans-serif;
 }
 .nav-bar:first-child {
     margin-left: 127px;
@@ -183,8 +156,7 @@ nav {
     width: 1400px;
     height: 642px;
     display: flex;
-    background: #000 url(./image/a.png) 0 0 no-repeat;
-    background-position: right 0;
+    background: #000 url(./image/a.png) right 0 no-repeat;
 }
 .button1 {
     width: 125px;
@@ -211,23 +183,22 @@ nav {
 }
 .block2-1-1 {
     color: #bd2631;
-    font-size: 35px;
     margin: 66px 11px 0 8px;
-    font-family: "Hind";
+    font-family: "Hind", sans-serif;
     font-size: 32px;
     line-height: 24px;
 }
 .block2-1-2 {
     color: #fff;
     margin: 23px 10px 0 10px;
-    font-family: "Hind";
+    font-family: "Hind", sans-serif;
     font-size: 42px;
     line-height: 24px;
 }
 .block2-1-3 {
     color: #fff;
     margin: 23px 13px;
-    font-family: "MyriadPro";
+    font-family: "MyriadPro", sans-serif;
     font-size: 24px;
     line-height: 18px;
 }

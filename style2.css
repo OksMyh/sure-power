@@ -19,23 +19,22 @@
 }
 .block11-1-1 {
     color: #bd2631;
-    font-family: "MyriadPro";
+    font-family: "MyriadPro", sans-serif;
     font-size: 18px;
     line-height: 30px;
     margin: -8px 0 0 -18px;
 }
 .block11-1-2 {
     width: 210px;
-    margin: 0 25px;
     color: #fff;
-    font-family: Hind;
+    font-family: Hind, sans-serif;
     font-size: 12px;
     line-height: 16px;
     margin: 10px;
 }
 .block11-4-1 {
     color: #bd2631;
-    font-family: "MyriadPro";
+    font-family: "MyriadPro", sans-serif;
     font-size: 12px;
     line-height: 16px;
     margin: 0 10px;
@@ -49,7 +48,7 @@
 .block12-1,
 .block12-2 {
     color: #fff;
-    font-family: "Hind";
+    font-family: "Hind", sans-serif;
     font-size: 12px;
     font-weight: normal;
     line-height: 30px;
@@ -79,11 +78,4 @@
     src: url(./fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf);
     font-weight: normal;
     font-style: normal;
-}
-.pagewrapper {
-    width: 100%;
-    height: 100vh;
-}
-.wrapper {
-    overflow-y: hidden;
 }
