@@ -10,9 +10,10 @@
 }
 .block3-1-1 {
     color: #efd4d5;
-    margin: 5px 0;
+    margin: 2px 0;
     font-family: "MyriadPro", sans-serif;
     font-size: 30px;
+    word-spacing: 2px;
     line-height: 30px;
 }
 .block3-1-2 {
@@ -20,10 +21,10 @@
     margin: 0;
     font-family: "MyriadPro", sans-serif;
     font-size: 24px;
+    word-spacing: 2px;
     line-height: 30px;
 }
 .button2 {
-    width: 138px;
     height: 50px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -32,7 +33,8 @@
     color: #000;
     border: 1px solid transparent;
     outline: none;
-    margin: 40px 127px 40px 311px;
+    padding: 0 34px 0 31px;
+    margin: 38px 0 0 294px;
     font-family: "MyriadPro", sans-serif;
     font-size: 14px;
     line-height: 30px;

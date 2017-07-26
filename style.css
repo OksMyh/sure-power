@@ -36,32 +36,38 @@ header {
 .ph-1 {
     width: 185px;
     color: #565655;
-    margin: 17px 0 0 12px;
-    font-family: "MyriadPro", sans-serif;
-    font-size: 15px;
+    padding: 17px 0 0 12px;
+    font: 600 15px "MyriadPro", sans-serif;
+}
+.ph-1-1 {
+    font: 400 14px "Hind", sans-serif;
+    padding-left: 2px;
 }
 .ph-2 {
-    width: 330px;
-    margin: 25px 13px;
+    width: 600px;
+    height: 20px;
+    margin-top: 17px;
 }
 .ph-2-1 {
     color: #565655;
-    margin: -25px 22px;
     font-family: "Hind", sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 30px;
+    padding-left: 20px;
 }
 .ph-1::before {
     content: "\00a0";
-    padding-right: 0;
 }
 .ph-2::before {
-    content: " ";
-    padding-right: 2px;
+    content: "\00a0 ";
 }
 .icons {
     display: flex;
     width: 150px;
+    padding: 0 0 10px 17px;
+}
+.icons1 {
+    padding: 20px 23px 0 0;
 }
 .block1 {
     height: 141px;
@@ -197,8 +203,9 @@ nav {
 }
 .block2-1-3 {
     color: #fff;
-    margin: 23px 13px;
+    margin: 23px 11px;
     font-family: "MyriadPro", sans-serif;
     font-size: 24px;
+    word-spacing: 5px;
     line-height: 18px;
 }
