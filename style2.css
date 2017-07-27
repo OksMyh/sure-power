@@ -1,5 +1,4 @@
 .block11 {
-    width: 1400px;
     height: 380px;
     background-color: #242424;
     display: flex;
@@ -25,7 +24,7 @@
     margin: -8px 0 0 -18px;
 }
 .block11-1-2 {
-    width: 210px;
+    /*width: 210px;*/
     color: #fff;
     font-family: Hind, sans-serif;
     font-size: 12px;
@@ -40,7 +39,6 @@
     margin: 0 10px;
 }
 .block12 {
-    width: 1400px;
     height: 85px;
     background-color: #131313;
 
